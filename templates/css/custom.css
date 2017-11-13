@@ -1,0 +1,68 @@
+/* Copyright (C) YOOtheme GmbH, YOOtheme Proprietary Use License (http://www.yootheme.com/license) */
+
+/* ========================================================================
+   Use this file to add custom CSS easily
+ ========================================================================== */
+
+.uk-navbar-nav > li > a::before {
+    height: 6px;
+}
+
+.wk-slideshow-katana .caption {
+    color: #ffffff;
+}
+
+.tm-block-dark a, .tm-block-primary a, .tm-block-dark .uk-link, .tm-block-primary .uk-link {
+    color: rgba(255, 255, 255, 0.85) !important;
+}
+
+.uk-navbar {
+    background: rgb(0, 0, 0) none repeat scroll 0% 0%;
+    color: rgb(255, 255, 255);
+}
+
+.uk-navbar-nav > li.uk-active > a {
+    background-color: #000;
+    color: #fff;
+}
+
+.uk-navbar-nav > li:hover > a, .uk-navbar-nav > li > a:focus, .uk-navbar-nav > li.uk-open > a {
+    background-color: #000;
+    color: #fff;
+    outline: medium none;
+}
+
+.uk-navbar-nav > li > a {
+    display: block;
+    box-sizing: border-box;
+    text-decoration: none;
+    height: 100px;
+    padding: 0px 15px;
+    line-height: 100px;
+    color: #fff;
+    font-size: 16px;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: normal;
+}
+
+.activate-bgimg-1 {
+    background: url("http://activatedrinks.com/images/headers/windows.jpg") 50% 0 no-repeat #FFFFFF;
+    background-size: cover;
+    border: none;
+}
+
+.activate-bgimg-2 {
+    background: url("http://activatedrinks.com/images/headers/maple.jpg") 50% 0 no-repeat #FFFFFF;
+    background-size: cover;
+    border: none;
+}
+
+.tm-fullscreen.tm-noblog > .tm-block-full-width > .uk-container {  
+max-width: none !important;  
+padding: 0 !important;  
+}
+
+/*reduce radius of rounded select boxes from RSFORMS*/
+.rsform-select-box {
+  border-radius:4px;
+}
